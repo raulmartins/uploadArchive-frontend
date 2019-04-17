@@ -28,7 +28,7 @@ export default class Main extends Component {
         <form action="" onSubmit={this.handleSubmit}>
           <img src={logo} alt="" />
           <input
-            placeholder="Create your box..."
+            placeholder="Create your box....."
             value={this.state.newBox}
             onChange={this.handleInputChange}
           />
